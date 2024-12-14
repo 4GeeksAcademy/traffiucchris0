@@ -1,0 +1,58 @@
+.traffic-light {
+    width: 10rem;
+    height: 20rem;
+    background: black;
+    border-radius: 2rem;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.lights {
+
+    width: 4rem;
+    height: 5rem;
+    border-radius: 50%;
+    
+
+}
+.red {
+
+    background: red;
+}
+
+.yellow {
+
+    background-color: yellow;
+
+}
+
+.green{
+
+    background-color: green;
+}
+
+
+#traffic-container {
+
+    width: 100px;
+
+    margin: auto;
+
+    background-color: black;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+   
+    }
+    .selected {
+
+        box-shadow: 0 0 20px 10px #fff, 0 0 20px 30px #fff;
+
+        opacity: 0.5;
+    }
